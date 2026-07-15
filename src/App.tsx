@@ -10,12 +10,10 @@ import { useAlgorithmPlayer } from './hooks/useAlgorithmPlayer'
 import { generateSteps } from './algorithms/stepGenerator'
 import styles from './App.module.css'
 
-// 模板占位符：生成仓库时由脚本替换为具体知识点信息
-// 占位约定见 .kiro/specs/tasks.md：替换 {{TOPIC_TITLE}} / {{TOPIC_NUMBER}} / {{TOPIC_CATEGORY}} / {{REPO_NAME}}
-const TOPIC_TITLE = '{{TOPIC_TITLE}}' // PLACEHOLDER
-const TOPIC_NUMBER = 0 // PLACEHOLDER {{TOPIC_NUMBER}}
-const TOPIC_CATEGORY = '{{TOPIC_CATEGORY}}' // PLACEHOLDER
-const REPO_NAME = '{{REPO_NAME}}' // PLACEHOLDER
+const TOPIC_TITLE = 'Region 定位'
+const TOPIC_NUMBER = 20
+const TOPIC_CATEGORY = 'Region 管理'
+const REPO_NAME = 'hbase-20-region-location'
 const REPO_URL = `https://github.com/CC11001100/${REPO_NAME}`
 
 const PRESETS: PresetData[] = [
